@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-.container{
-  background-color: green;
+.dropdown>.cap>h3{
+  color: white;
+  padding: 0 10% 0 0;
 }
-.item{
+div.dropdown{
+  display: flex;
   background-color: red;
+  justify-content: space-between;
+}
+.dropdown>ul>li{
+  background-color: #616770;
+}
+.dropdown>ul>li>a{
+  color: white
+}
+body{
+  background-color: #616770;
+}
+@media screen and (max-width: 700px){
+  .dropdown>.cap>h3{
+    padding: 0 0 0 10%;
+  }
+}
+@media screen and (max-width: 360px){
+  .dropdown>.cap>h3{
+    padding: 0 5% 0 0;
+  }
 }
