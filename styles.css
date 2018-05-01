@@ -4,8 +4,9 @@
 }
 div.dropdown{
   display: flex;
-  background-color: red;
+  background-color:#616770 ;
   justify-content: space-between;
+  margin-top: 10px;
 }
 .dropdown>ul>li{
   background-color: #616770;
